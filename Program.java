@@ -5,6 +5,12 @@ package com.Sandeep_Udemy;
  */
 public class Program {
     public static void main(String[] args){
-        System.out.println("Hello World!!");
+        print("Hello World!!");
     }
+	
+	public static print(String msg) {
+		System.out.println(msg);
+	}
 }
+
+
