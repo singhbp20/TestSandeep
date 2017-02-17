@@ -8,6 +8,11 @@ public class Program {
         print("Hello World!!");
     }
 	
+	public static int strlen(String msg) {
+		System.out.println(msg.length());
+		return msg.length();
+	}
+	
 	public static print(String msg) {
 		System.out.println(msg);
 	}
