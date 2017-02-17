@@ -16,4 +16,17 @@ public class Program {
         System.out.println(txt);
         System.out.println("The length of '"+ txt +"' is : "+ strLen(txt));
     }
+	
+	/*
+	public static int strlen(String msg) {
+		System.out.println(msg.length());
+		return msg.length();
+	}
+*/
+	public static print(String msg) {
+		System.out.println(msg);
+	}
+	
 }
+
+
